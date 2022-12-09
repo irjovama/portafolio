@@ -1,0 +1,80 @@
+@import url(reset.css);
+
+:root {
+    --primary: #97DECE;
+    --primary-light: #CBEDD5;
+    --primary-dark: #62B6B7;
+    --primary-darker: #439A97;
+    --secondary: #E6DDC4;
+    --secondary-light: #F0E9D2;
+    --secondary-dark: #678983;
+    --secondary-darker: #181D31;
+    --rounded-sm: 25px;
+    background: var(--primary-light);
+}
+
+.nav-bar {
+    min-height: 40px;
+    background: var(--secondary-dark);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 200px;
+    font-size: large;
+    color: var(--primary-light);
+}
+
+.nav-list {
+    font-size: medium;
+    display: flex;
+    justify-content: right;
+    gap: 1.5rem;
+
+}
+
+.link-primary {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: var(--primary-light);
+    outline: none;
+    border: solid;
+    border-color: transparent;
+    border-radius: var(--rounded-sm)
+}
+
+.link-primary:focus {
+    border-color: var(--primary-dark);
+}
+
+.link-primary:hover {
+    border-color: var(--primary-darker);
+}
+
+.link-primary:active {
+    background: var(--primary);
+}
+
+.btn-secondary {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: var(--primary-light);
+    outline: none;
+    border: solid;
+    border-color: transparent;
+    border-radius: var(--rounded-sm);
+    background-color: var(--secondary-darker);
+}
+
+
+.btn-secondary:focus {
+    border-color: var(--primary-dark);
+}
+
+.btn-secondary:hover {
+    border-color: var(--primary-darker);
+}
+
+.btn-secondary:active {
+    background: var(--primary);
+}
