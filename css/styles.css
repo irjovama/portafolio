@@ -1,14 +1,16 @@
 @import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&family=Playfair+Display&display=swap');
 
 :root {
-    --primary: #97DECE;
-    --primary-light: #CBEDD5;
-    --primary-dark: #62B6B7;
-    --primary-darker: #439A97;
-    --secondary: #E6DDC4;
-    --secondary-light: #F0E9D2;
-    --secondary-dark: #678983;
-    --secondary-darker: #181D31;
+    font-family: 'Open Sans', sans-serif;
+    --primary: #cce7e0;
+    --primary-light: #ddefea;
+    --primary-dark: #baded5;
+    --primary-darker: #acd4ca;
+    --secondary: #609ba2;
+    --secondary-light: #7bafb5;
+    --secondary-dark: #529097;
+    --secondary-darker: #38767d;
     --rounded-sm: 25px;
     background: var(--primary-light);
 }
@@ -18,20 +20,23 @@
     background: var(--secondary-dark);
     color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 200px;
+    padding: 5px 10%;
     font-size: large;
     color: var(--primary-light);
+    box-shadow: 10px 10px 5px var(--secondary-darker);
 }
 
 .nav-list {
     font-size: medium;
     display: flex;
-    justify-content: right;
     gap: 1.5rem;
-
+    flex-wrap: wrap;
 }
+
+
 
 .link-primary {
     text-decoration: none;
@@ -77,4 +82,47 @@
 
 .btn-secondary:active {
     background: var(--primary);
+}
+
+.header1 {
+    font-size: xx-large;
+    margin: 1rem;
+}
+
+.header2 {
+    font-size: x-large;
+}
+
+.paragraph {
+    margin: 1rem;
+}
+
+.section-md,
+section {
+    margin: 35px 10%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .article {
+        margin: 2rem;
+        display: inline-block;
+        max-width: 100%
+    }
+}
+
+.article {
+    margin: 2rem;
+    display: inline-block;
+    max-width: calc(80% / 2)
+}
+
+.secondary {
+    background: var(--secondary-darker);
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
