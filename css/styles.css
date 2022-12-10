@@ -84,6 +84,9 @@
 }
 
 
+.round-sm {
+    border-radius: var(--rounded-sm);
+}
 
 .btn-primary {
     text-decoration: none;
@@ -122,6 +125,12 @@
     padding: 1rem 0;
 }
 
+.header3 {
+    font-size: large;
+    font-weight: bolder;
+    padding: 1rem 0;
+}
+
 .paragraph-xs {
     min-height: 80px;
 }
@@ -145,17 +154,25 @@ section {
     margin: 2rem;
 }
 
-.article-xl {
-    padding: 0 5rem;
+.article-xxs {
     display: flex;
     flex-direction: column;
+    max-width: 500px;
+    margin: 2rem;
+}
+
+.article-xl {
+    display: flex;
+    width: 100%;
+    margin: 2rem;
 }
 
 .article-md,
 article {
     display: flex;
     flex-direction: column;
-
+    max-width: 600px;
+    margin: 2rem;
 }
 
 .bg-primary {
