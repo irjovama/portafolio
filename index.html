@@ -1,96 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/styles.css">
+        <meta charset='utf-8'>
+        <meta http-equiv='' content=''>
         <title>Home</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen'
+            href='css/main.css'>
+        <script src="js/styles.js"></script>
     </head>
     <body>
-        <nav class="nav-bar">
-            <span>IRVING JONES VALDES MACIEL</span>
-
-            <ul class="nav-list">
-                <li><a href="articles/index.html" class="link-primary">Articles</a></li>
-                <li><a href="portafolio.html" class="link-primary">Portafolio</a></li>
-                <li><a href="about.html" class="link-primary">About</a></li>
-                <li><a href="contact.html" class="btn-primary">Contact Me</a></li>
-            </ul>
-
-        </nav>
-        <header class="article-xl bg-primary-dark">
-            <h1 class="header1">Hi my name is Irving Jones Valdes Maciel
-                Fullstack developer
-                looking for new adventures</h1>
-            <p class="paragraph-xs">
-                I am a very active person to learn new things every day I look
-                for information to increase my ability, I enjoy the job very
-                much. Right now I have a marketing business but I am looking to
-                fulfill my dream and work in technology.
-            </p>
-
+        <header class="bg-secondary-light entrandoArriba">
+            <nav class="nav-bar container-lg">
+                <a class="navbar-brand heading-md-semibold" href="index.html">Irving
+                    Jones Valdes
+                    maciel</a>
+                <a class="heading-sm item-menu btn btn-primary"><i
+                        class="ri-menu-line"></i></a>
+            </nav>
+            <div class="collapse hidden">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="navlink text-md-semibold">Articles</a></li>
+                    <li><a href="portfolio.html" class="navlink
+                            text-md-semibold">Portfolio</a></li>
+                    <li><a href="about.html" class="navlink text-md-semibold">About</a></li>
+                    <li><a href="contact.html" class="btn btn-primary btn-sm">Contact</a></li>
+                </ul>
+            </div>
         </header>
-        <section class="section-md">
-            <h2 class="header2 center">Last articles</h2>
-            <h3 class="header3 center">Things I have worked on last years</h3>
-            <section class="section-xl grid">
-                <article class="article-xs">
-                    NOVIEMBRE 2022
-                    <h2 class="header2">Learning Ruby in 4 weeks</h2>
-                    <p class="paragraph-xs">Thanks to Codeable I have Learned
-                        the
-                        Language
-                        of programation Ruby, I am very grateful to them for
-                        their help to make possible in only four weeks </p>
-                    <a href="articles/learning-ruby-in-4-weeks.html"
-                        class="btn-primary">Read more</a>
-                </article>
-                <article class="article-md">
-                    FEBRUARY 2021
-                    <h2 class="header2">Bot for Whatsapp Bussiness</h2>
-                    <p class="paragraph-xs">To increase sales in my business, I
-                        programmed a system that works with WhatsApp to send
-                        automated messages to prospects and offer them our
-                        products in less time.</p>
-                    <a href="articles/bot-for-whatsapp-bussiness.html"
-                        class="btn-primary">Read more</a>
-                </article>
-                <article class="article-xs">
-                    JANUARY 2021
-                    <h2 class="header2">Launching SAVI</h2>
-                    <p class="paragraph-xs">I started a marketing business, so I
-                        needed a
-                        system to manage sales, pay commissions to salespeople,
-                        and control flow. Basically a CRM system, for this
-                        purpose I have created the SAVI system</p>
-                    <a href="articles/launching-savi.html" class="btn-primary">Read
-                        more</a>
-                </article>
-                <article class="article-xs">
-                    JANUARY 2020
-                    <h2 class="header2">Learning Python in pandemic</h2>
-                    <p class="paragraph-xs">When the pandemic started I had to
-                        stay home so
-                        I decided to learn a new programming language and chose
-                        Python. I didn't know it at the time but it's one of the
-                        best decisions he ever made because it has helped me a
-                        lot in my business with creating automated bots.</p>
-                    <a href="articles/learning-python-in-pandemic.html"
-                        class="btn-primary">Read more</a>
-                </article>
-            </section>
 
+        <section class="bg-secondary entrandoDerecha">
+            <div class="container-lg pd-section-md">
+                <h1 class="heading-xl">
+                    Hi! I'm <span class="text-primary">Irving</span>, full
+                    stack developer looking for new adventures
+                </h1>
+                <p class="">
+                    I am an enthusiastic person who always sees the glass as
+                    half full. I like to always keep learning and dodging new
+                    challenges
+                </p>
+            </div>
         </section>
-        <footer class="article-xl bg-primary-dark">
-            <h1 class="header1 center">Can I help you?</h1>
-            <p class="paragraph-xs center">
-                <span>
-                    <a href="articles/contact.html"
-                        class="btn-primary">Get in touch!</a>
-                </span>
+        <section class="pd-section-sm">
+            <div class="container-lg header">
+                <h2 class="heading-lg-semibold">Last Articles</h2>
+                <h3 class="text-lg">Things I have learned already</h3>
+            </div>
+        </section>
+        <section class="pd-section-sm">
+            <div class="grid-lg">
+                <article class="card-md">
+                    <span class="text-xs-semibold overline">December 2022</span>
+                    <h3 class="heading-md">HTML y CSS</h3>
+                    <p class="pd-section-sm">
+                        During 2 very constructive weeks I reviewed HTML and CSS
+                        with which I have managed to improve my front-end skills
+                    </p>
+                    <a href="articles/html-and-css.html" class="navlink
+                        text-md-semibold">About</a>
+                </article>
+                <article class="card-md">
+                    <span class="text-xs-semibold overline">November 2022</span>
+                    <h3 class="heading-md">Learning Ruby in 4 weeks</h3>
+                    <p class="pd-section-sm">
+                        I managed to master a very versatile language with
+                        unique methodologies that allows me to go one step
+                        further when facing new projects.
+                    </p>
+                    <a href="articles/ruby.html" class="navlink
+                        text-md-semibold">About</a>
+                </article>
+            </div>
+        </section>
 
-            </p>
+        <footer class="bg-secondary pd-section-md ">
+            <section class="container-sm header">
+                <h1 class="heading-xl-semibold">Can I help you?</h1>
+                <a class="btn btn-primary btn-lg section-md header"
+                    href="contact.html">Get in touch</a>
+            </section>
         </footer>
     </body>
 </html>

@@ -1,0 +1,75 @@
+.form-control[type="text"],
+select {
+    background: #FFFFFF;
+    border: 1px solid var(--gray-700);
+    border-radius: 6px;
+    padding: 8px 12px;
+    outline: none;
+}
+
+.form-control[type="text"]:placeholder {
+    color: var(--gray-500);
+}
+
+.form-control[type="text"]:hover,
+select:hover,
+select:active,
+.form-control[type="text"]:active {
+    color: var(--text);
+    outline: 3px solid var(--info);
+    border: 1px solid transparent;
+}
+
+
+
+.form-area {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 4px;
+}
+
+.form-area>label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+
+    /* text */
+
+    color: var(--text);
+
+}
+
+.form-area>.errorText {
+    color: var(--red-500);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.form-area>.helpText {
+    color: var(--gray-500);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.form-area>.invalid,
+.form-area>.invalid:hover,
+.form-area>.invalid:active {
+    background: #FFFFFF;
+    border: 1px solid var(--red-500);
+    border-radius: 6px;
+    padding: 8px 12px;
+    outline: none;
+}

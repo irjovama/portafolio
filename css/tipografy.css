@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap');
+
+:root {
+    font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+    line-height: 1.5;
+    font-style: normal;
+    color: var(--text);
+    --default-weight: 300;
+    --regular-weight: 400;
+    --semibold-weight: 600;
+
+}
+
+.overline {
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
+.mono {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    font-weight: var(--default-weight);
+}
+
+
+.text-xl-regular {
+    font-size: 1.25rem;
+    font-weight: var(--regular-weight);
+}
+
+.text-xl-semibold {
+    font-size: 1.25rem;
+    font-weight: var(--semibold-weight);
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    font-weight: var(--default-weight);
+}
+
+.text-lg-regular {
+    font-size: 1.125rem;
+    font-weight: var(--regular-weight);
+}
+
+.text-lg-semibold {
+    font-size: 1.125rem;
+    font-weight: var(--semibold-weight);
+}
+
+.text-md,
+.text {
+    font-size: 1rem;
+    font-weight: var(--default-weight);
+}
+
+.text-md-regular,
+.text-regular {
+    font-size: 1rem;
+    font-weight: var(--regular-weight);
+}
+
+.text-md-semibold,
+.text-semibold {
+    font-size: 1rem;
+    font-weight: var(--semibold-weight);
+}
+
+.text-sm {
+    font-size: 0.875rem;
+    font-weight: var(--default-weight);
+}
+
+.text-sm-regular {
+    font-size: 0.875rem;
+    font-weight: var(--regular-weight);
+}
+
+.text-sm-semibold {
+    font-size: 0.875rem;
+    font-weight: var(--semibold-weight);
+}
+
+.text-xs {
+    font-size: 0.75rem;
+    font-weight: var(--default-weight);
+}
+
+.text-xs-regular {
+    font-size: 0.75rem;
+    font-weight: var(--regular-weight);
+}
+
+.text-xs-semibold {
+    font-size: 0.75rem;
+    font-weight: var(--semibold-weight);
+}
+
+.heading-3xl {
+    font-size: 4.5rem;
+    line-height: 1;
+    font-weight: var(--regular-weight);
+}
+
+.heading-3xl-light {
+    font-size: 4.5rem;
+    line-height: 1;
+    font-weight: var(--default-weight);
+}
+
+.heading-3xl-semibold {
+    font-size: 4.5rem;
+    line-height: 1;
+    font-weight: var(--semibold-weight);
+}
+
+.heading-2xl {
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: var(--regular-weight);
+}
+
+.heading-2xl-light {
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: var(--default-weight);
+}
+
+.heading-2xl-semibold {
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: var(--semibold-weight);
+}
+
+.heading-xl {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: var(--regular-weight);
+}
+
+.heading-xl-light {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: var(--default-weight);
+}
+
+.heading-xl-semibold {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: var(--semibold-weight);
+}
+
+.heading-lg {
+    font-size: 2.25rem;
+    line-height: 1;
+    font-weight: var(--regular-weight);
+}
+
+.heading-lg-light {
+    font-size: 2.25rem;
+    line-height: 1;
+    font-weight: var(--default-weight);
+}
+
+.heading-lg-semibold {
+    font-size: 2.25rem;
+    line-height: 1;
+    font-weight: var(--semibold-weight);
+}
+
+.heading-md {
+    font-size: 1.875rem;
+    line-height: 1;
+    font-weight: var(--regular-weight);
+}
+
+.heading-md-light {
+    font-size: 1.875rem;
+    line-height: 1;
+    font-weight: var(--default-weight);
+}
+
+.heading-md-semibold {
+    font-size: 1.875rem;
+    line-height: 1;
+    font-weight: var(--semibold-weight);
+}
+
+.heading-sm {
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: var(--regular-weight);
+}
+
+.heading-sm-light {
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: var(--default-weight);
+}
+
+.heading-sm-semibold {
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: var(--semibold-weight);
+}
+
+.heading-xs {
+    font-size: 1.25rem;
+    line-height: 1;
+    font-weight: var(--regular-weight);
+}
+
+.heading-xs-light {
+    font-size: 1.25rem;
+    line-height: 1;
+    font-weight: var(--default-weight);
+}
+
+.heading-xs-semibold {
+    font-size: 1.25rem;
+    line-height: 1;
+    font-weight: var(--semibold-weight);
+}

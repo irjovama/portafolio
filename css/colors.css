@@ -1,0 +1,165 @@
+:root {
+    --gray-50: hsla(210, 20%, 98%, 1);
+    --gray-100: hsla(220, 14%, 96%, 1);
+    --gray-200: hsla(220, 13%, 91%, 1);
+    --gray-300: hsla(216, 12%, 84%, 1);
+    --gray-400: hsla(218, 11%, 65%, 1);
+    --gray-500: hsla(220, 9%, 46%, 1);
+    --gray-600: hsla(215, 14%, 34%, 1);
+    --gray-700: hsla(217, 19%, 27%, 1);
+    --gray-800: hsla(215, 28%, 17%, 1);
+    --gray-900: hsla(221, 39%, 11%, 1);
+
+    --pink-50: hsla(327, 73%, 97%, 1);
+    --pink-100: hsla(326, 78%, 95%, 1);
+    --pink-200: hsla(326, 85%, 90%, 1);
+    --pink-300: hsla(327, 87%, 82%, 1);
+    --pink-400: hsla(329, 86%, 70%, 1);
+    --pink-500: hsla(330, 81%, 60%, 1);
+    --pink-600: hsla(333, 71%, 51%, 1);
+    --pink-700: hsla(335, 78%, 42%, 1);
+    --pink-800: hsla(336, 74%, 35%, 1);
+    --pink-900: hsla(336, 69%, 30%, 1);
+
+    --stone-50: hsla(60, 9%, 98%, 1);
+    --stone-100: hsla(60, 5%, 96%, 1);
+    --stone-200: hsla(20, 6%, 90%, 1);
+    --stone-300: hsla(24, 6%, 83%, 1);
+    --stone-400: hsla(24, 5%, 64%, 1);
+    --stone-500: hsla(25, 5%, 45%, 1);
+    --stone-600: hsla(33, 5%, 32%, 1);
+    --stone-700: hsla(30, 6%, 25%, 1);
+    --stone-800: hsla(12, 6%, 15%, 1);
+    --stone-900: hsla(24, 10%, 10%, 1);
+
+    --red-50: hsla(0, 86%, 97%, 1);
+    --red-100: hsla(0, 93%, 94%, 1);
+    --red-200: hsla(0, 96%, 89%, 1);
+    --red-300: hsla(0, 94%, 82%, 1);
+    --red-400: hsla(0, 91%, 71%, 1);
+    --red-500: hsla(0, 84%, 60%, 1);
+    --red-600: hsla(0, 72%, 51%, 1);
+    --red-700: hsla(0, 74%, 42%, 1);
+    --red-800: hsla(0, 70%, 35%, 1);
+    --red-900: hsla(0, 63%, 31%, 1);
+
+    --yellow-50: hsla(48, 100%, 96%, 1);
+    --yellow-100: hsla(48, 96%, 89%, 1);
+    --yellow-200: hsla(48, 97%, 77%, 1);
+    --yellow-300: hsla(46, 97%, 65%, 1);
+    --yellow-400: hsla(43, 96%, 56%, 1);
+    --yellow-500: hsla(38, 92%, 50%, 1);
+    --yellow-600: hsla(32, 95%, 44%, 1);
+    --yellow-700: hsla(26, 90%, 37%, 1);
+    --yellow-800: hsla(23, 82%, 31%, 1);
+    --yellow-900: hsla(22, 78%, 26%, 1);
+
+    --green-50: hsla(146, 54%, 97%, 1);
+    --green-100: hsla(145, 69%, 94%, 1);
+    --green-200: hsla(147, 82%, 89%, 1);
+    --green-300: hsla(148, 67%, 74%, 1);
+    --green-400: hsla(138, 65%, 68%, 1);
+    --green-500: hsla(136, 53%, 52%, 1);
+    --green-600: hsla(136, 38%, 37%, 1);
+    --green-700: hsla(136, 39%, 27%, 1);
+    --green-800: hsla(135, 38%, 17%, 1);
+    --green-900: hsla(167, 56%, 8%, 1);
+
+    --blue-50: hsla(214, 100%, 97%, 1);
+    --blue-100: hsla(214, 95%, 93%, 1);
+    --blue-200: hsla(213, 97%, 87%, 1);
+    --blue-300: hsla(212, 96%, 78%, 1);
+    --blue-400: hsla(213, 94%, 68%, 1);
+    --blue-500: hsla(217, 91%, 60%, 1);
+    --blue-600: hsla(221, 83%, 53%, 1);
+    --blue-700: hsla(224, 76%, 48%, 1);
+    --blue-800: hsla(226, 71%, 40%, 1);
+    --blue-900: hsla(224, 64%, 33%, 1);
+
+    --white: hsla(0, 0%, 100%, 1);
+    --black: #171717;
+
+    /**====Special colors====**/
+    --primary-lighter: #FCE7F3;
+    --primary-light: #F9A8D4;
+    --primary: #DB2777;
+    --primary-dark: #BE185D;
+    --primary-darker: #831843;
+    --secondary-lighter: #F5F5F4;
+    --secondary-light: #D6D3D1;
+    --secondary: #78716C;
+    --secondary-dark: #44403C;
+    --secondary-darker: #1C1917;
+    --error: #F87171;
+    --warning: #FCD34D;
+    --success: #77E297;
+    --info: #60A5FA;
+    --text: #111827;
+    --background-lighter: #FFFFFF;
+    --background-light: #F9FAFB;
+    --background: #F3F4F6;
+    --background-dark: #E5E7EB;
+    --background-darker: #D1D5DB;
+}
+
+.bg-primary {
+    background: var(--primary);
+    color: var(--white);
+}
+
+.bg-secondary {
+    background: var(--secondary);
+    color: var(--white);
+}
+
+.bg-secondary-dark {
+    background: var(--secondary-dark);
+    color: var(--white);
+}
+
+.bg-secondary-darker {
+    background: var(--secondary-darker);
+    color: var(--white);
+}
+
+.bg-secondary-light {
+    background: var(--secondary-light);
+    color: var(--text);
+}
+
+.bg-error {
+    background: var(--error);
+    color: var(--white);
+}
+
+.bg-warning {
+    background: var(--warning);
+    color: var(--text)
+}
+
+.bg-success {
+    background: var(--success);
+    color: var(--text);
+}
+
+.bg-info {
+    background: var(--info);
+    color: var(--text);
+}
+
+.bg-white {
+    background: var(--white);
+    color: var(--text);
+}
+
+.text-white {
+    color: white;
+}
+
+.text-text {
+    color: var(--text);
+}
+
+.text-primary {
+    color: var(--primary);
+}
